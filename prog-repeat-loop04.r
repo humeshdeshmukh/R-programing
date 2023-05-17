@@ -1,0 +1,11 @@
+a<-1
+repeat{
+  if(a==10)
+    break
+  if(a==7){
+    aa=a+1
+    next
+  }
+  print(a)
+  a<-a+1
+}
