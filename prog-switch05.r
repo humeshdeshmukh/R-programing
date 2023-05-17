@@ -1,0 +1,11 @@
+y="18"
+a=10
+b=2
+x=switch(
+  y,
+  "9"=cat("Addition=",a+b),
+  "12"=cat("Subtraction=",a-b),
+  "18"=cat("Division=",a/b),
+  "21"=cat("Multiplication=",a*b)
+)
+print(x)
