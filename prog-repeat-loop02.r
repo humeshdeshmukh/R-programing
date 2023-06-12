@@ -12,3 +12,4 @@ repeat{
 }  
 cat("The sum of numbers from the repeat loop is: ",sum) 
 
+
